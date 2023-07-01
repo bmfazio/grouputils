@@ -1,0 +1,22 @@
+Package: grouputils
+Title: Form Groups Based on Preferences
+Version: 0.0.0.9000
+Authors@R:
+    c(person(given = "Luna",
+             family = "Fazio",
+             role = c("aut", "cre"),
+             email = "bmfaziol@gmail.com"),
+      person(given = "Florence",
+             family = "Bockting",
+             role = "ctb")
+      )
+Description: Take a matrix of people x group preferences + target group size and come up with a sensible distribution.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    stats
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
